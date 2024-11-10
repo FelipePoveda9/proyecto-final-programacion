@@ -7,9 +7,10 @@ using namespace std;
 int main() {
     vector<Object> objectList;
 
-    if (FileReader::readObjectsFromFile("C:\\Users\\USUARIO\\Desktop\\Nueva carpeta\\raycaster\\assets\\data\\object_data.csv", objectList))
+    if (FileReader::readObjectsFromFile("Texto.txt", objectList))
     {
         cout << "Por fin se lee esta monada" << endl;
+ 
 
         for (Object obj : objectList) 
         {

@@ -13,11 +13,11 @@ bool FileReader::readMapFromFile(const char* fileName, int map[GRID_SIZE][GRID_S
     return false;
 }
 
-bool FileReader::readObjectsFromFile(const char* object_data, vector<Object>& objectList) {
-    ifstream file(object_data);
+bool FileReader::readObjectsFromFile(const char* Texto, vector<Object>& objectList) {
+    ifstream file(Texto);
     if (!file.is_open())
     {
-        cerr << "No se pudo abrir el archivo: " << object_data << endl;
+        cerr << "No se pudo abrir el archivo: " << Texto << endl;
         return false;
     }
 
