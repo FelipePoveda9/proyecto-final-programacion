@@ -51,6 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="assets\data\object_data.csv">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -127,18 +130,8 @@
     <Image Include="assets\textures\sprites\static\imp.png">
       <Filter>Resource Files</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <Xml Include="assets\textures\sprites\static\shotgun.png">
+    <Image Include="assets\textures\sprites\static\shotgun.png">
       <Filter>Resource Files</Filter>
-    </Xml>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="assets\data\object_data.csv">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="Texto.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
+    </Image>
   </ItemGroup>
 </Project>

@@ -148,7 +148,6 @@
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
     </Text>
     <None Include="packages.config" />
-    <Text Include="Texto.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Canvas.h" />
