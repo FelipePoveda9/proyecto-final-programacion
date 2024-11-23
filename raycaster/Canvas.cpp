@@ -509,7 +509,7 @@ GameState Canvas::drawMenu()
 	ShowCursor();
 	int screenWidth = GetScreenWidth();
 	int screenHeight = GetScreenHeight();
-	std::string titleText = "The purifer of souls";
+	std::string titleText = "The purifier of souls";
 	int titleFontSize = 250;
 	int titleTextWidth = MeasureTextEx(doomFont, titleText.c_str(), titleFontSize, 2).x;
 	int titleTextPosX = (screenWidth / 2) - (titleTextWidth / 2);
@@ -579,7 +579,7 @@ GameState Canvas::drawPause()
 	DrawText("Exit", 230 + (buttonWidth / 4), 400 + 10, fontSize, WHITE);
 
 	Vector2 mousePosition = GetMousePosition();
-
+	
 	if (CheckCollisionPointRec(mousePosition, optionsButtonRect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
 	{
 		state = options;

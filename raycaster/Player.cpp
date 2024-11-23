@@ -110,7 +110,7 @@ void Player::reset()
 {
 	health = maxHealth;
 	angle = 3 * PI/2;
-	position = { 20, 21 };
+	position = { 5, 5 };
 	justShot = false;
 }
 
@@ -128,7 +128,7 @@ Player::Player()
 	maxHealth = 100;
 	hurtTimer = 0;
 	health = maxHealth;
-	position = { 20, 21 };
+	position = { 5, 5 };
 	speed = 5.0;
 	rotationSpeed = 0.09f;
 	//angle =  3 * PI / 2;
